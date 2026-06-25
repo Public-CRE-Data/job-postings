@@ -1,9 +1,9 @@
-# US Job Postings — Metro & Sector (through 2023)
+# US Job Postings — Metro & Sector
 
-Indeed Hiring Lab's **US Job Postings Tracker**, filtered to observations through
-**December 31, 2023** and split into small, spreadsheet-friendly files — one per
-sector and one per major metro. The index is set to **100 on February 1, 2020**, so
-each value is relative to that baseline.
+Indeed Hiring Lab's **US Job Postings Tracker**, split into small, spreadsheet-friendly
+files — one per sector and one per major metro — covering the **full series,
+2020-02-01 → 2026-06-19**. The index is set to **100 on February 1, 2020**, so each
+value is relative to that baseline.
 
 ## Structure
 
@@ -17,6 +17,7 @@ Columns: `date, jobcountry, indeed_job_postings_index, variable, display_name`
 (`variable` = `new postings` vs `total postings`; `jobcountry` = US). One file per
 sector, named by a slug of the sector (e.g. `software_development.csv`,
 `banking_and_finance.csv`). Full file↔sector map in [`by_sector/_index.csv`](by_sector/_index.csv).
+Each file holds ~4,662 rows (both `new` and `total` postings across the full series).
 
 Sectors (40): Accounting · Administrative Assistance · Architecture · Arts & Entertainment ·
 Banking & Finance · Childcare · Civil Engineering · Cleaning & Sanitation ·
@@ -31,7 +32,8 @@ Social Science · Software Development.
 
 ### `by_metro/` — daily index by metro
 Columns: `date, metro, cbsa_code, indeed_job_postings_index`. One file per metro, named
-by a city slug (e.g. `new_york_ny.csv`). Rank + CBSA map in [`by_metro/_index.csv`](by_metro/_index.csv).
+by a city slug (e.g. `new_york_ny.csv`), ~2,331 daily rows each. Rank + CBSA map in
+[`by_metro/_index.csv`](by_metro/_index.csv).
 
 Top-30 US metros (by population, matched on CBSA code):
 
@@ -53,12 +55,9 @@ Top-30 US metros (by population, matched on CBSA code):
 | 14 | Detroit, MI | `detroit_mi.csv` | 29 | Las Vegas, NV | `las_vegas_nv.csv` |
 | 15 | Seattle, WA | `seattle_wa.csv` | 30 | Cincinnati, OH | `cincinnati_oh.csv` |
 
-Each metro file covers 2020-02-01 → 2023-12-31 (1,430 daily rows); each sector file
-2,860 rows (both `new` and `total` postings).
-
 ## Source
 
 Data from Indeed Hiring Lab, [`hiring-lab/job_postings_tracker`](https://github.com/hiring-lab/job_postings_tracker/tree/master/US)
-(US folder), retrieved 2026-06-25. Only the date filter (≤ 2023-12-31) and the
-per-series split were applied; index values are otherwise unmodified. See the source
-repository for the full ongoing series, methodology, and terms of use.
+(US folder), retrieved 2026-06-25 — a snapshot of the ongoing series. Only the
+per-series split was applied; index values are otherwise unmodified. See the source
+repository for the latest data, methodology, and terms of use.

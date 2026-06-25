@@ -1,41 +1,41 @@
 file,sector,rows
-accounting.csv,Accounting,2860
-administrative_assistance.csv,Administrative Assistance,2860
-architecture.csv,Architecture,2860
-arts_and_entertainment.csv,Arts & Entertainment,2860
-banking_and_finance.csv,Banking & Finance,2860
-childcare.csv,Childcare,2860
-civil_engineering.csv,Civil Engineering,2860
-cleaning_and_sanitation.csv,Cleaning & Sanitation,2860
-community_and_social_service.csv,Community & Social Service,2860
-customer_service.csv,Customer Service,2860
-data_and_analytics.csv,Data & Analytics,2860
-education_and_instruction.csv,Education & Instruction,2860
-electrical_engineering.csv,Electrical Engineering,2860
-food_preparation_and_service.csv,Food Preparation & Service,2860
-hospitality_and_tourism.csv,Hospitality & Tourism,2860
-human_resources.csv,Human Resources,2860
-it_infrastructure_operations_and_support.csv,"IT Infrastructure, Operations & Support",2860
-it_systems_and_solutions.csv,IT Systems & Solutions,2860
-industrial_engineering.csv,Industrial Engineering,2860
-installation_and_maintenance.csv,Installation & Maintenance,2860
-legal.csv,Legal,2860
-loading_and_stocking.csv,Loading & Stocking,2860
-logistic_support.csv,Logistic Support,2860
-management.csv,Management,2860
-marketing.csv,Marketing,2860
-mechanical_engineering.csv,Mechanical Engineering,2860
-media_and_communications.csv,Media & Communications,2860
-medical_information.csv,Medical Information,2860
-medical_technician.csv,Medical Technician,2860
-nursing.csv,Nursing,2860
-pharmacy.csv,Pharmacy,2860
-physicians_and_surgeons.csv,Physicians & Surgeons,2860
-production_and_manufacturing.csv,Production & Manufacturing,2860
-project_management.csv,Project Management,2860
-retail.csv,Retail,2860
-sales.csv,Sales,2860
-scientific_research_and_development.csv,Scientific Research & Development,2860
-security_and_public_safety.csv,Security & Public Safety,2860
-social_science.csv,Social Science,2860
-software_development.csv,Software Development,2860
+accounting.csv,Accounting,4662
+administrative_assistance.csv,Administrative Assistance,4662
+architecture.csv,Architecture,4662
+arts_and_entertainment.csv,Arts & Entertainment,4662
+banking_and_finance.csv,Banking & Finance,4662
+childcare.csv,Childcare,4662
+civil_engineering.csv,Civil Engineering,4662
+cleaning_and_sanitation.csv,Cleaning & Sanitation,4662
+community_and_social_service.csv,Community & Social Service,4662
+customer_service.csv,Customer Service,4662
+data_and_analytics.csv,Data & Analytics,4662
+education_and_instruction.csv,Education & Instruction,4662
+electrical_engineering.csv,Electrical Engineering,4662
+food_preparation_and_service.csv,Food Preparation & Service,4662
+hospitality_and_tourism.csv,Hospitality & Tourism,4662
+human_resources.csv,Human Resources,4662
+it_infrastructure_operations_and_support.csv,"IT Infrastructure, Operations & Support",4662
+it_systems_and_solutions.csv,IT Systems & Solutions,4662
+industrial_engineering.csv,Industrial Engineering,4662
+installation_and_maintenance.csv,Installation & Maintenance,4662
+legal.csv,Legal,4662
+loading_and_stocking.csv,Loading & Stocking,4662
+logistic_support.csv,Logistic Support,4662
+management.csv,Management,4662
+marketing.csv,Marketing,4662
+mechanical_engineering.csv,Mechanical Engineering,4662
+media_and_communications.csv,Media & Communications,4662
+medical_information.csv,Medical Information,4662
+medical_technician.csv,Medical Technician,4662
+nursing.csv,Nursing,4662
+pharmacy.csv,Pharmacy,4662
+physicians_and_surgeons.csv,Physicians & Surgeons,4662
+production_and_manufacturing.csv,Production & Manufacturing,4662
+project_management.csv,Project Management,4662
+retail.csv,Retail,4662
+sales.csv,Sales,4662
+scientific_research_and_development.csv,Scientific Research & Development,4662
+security_and_public_safety.csv,Security & Public Safety,4662
+social_science.csv,Social Science,4662
+software_development.csv,Software Development,4662
